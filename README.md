@@ -89,12 +89,13 @@ Installation & Setup
 
 1. Clone the Repository:
 git clone [https://github.com/yourusername/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)
+
 cd VulnOrchestrator
 
-2. Install Required Python Dependencies:
+3. Install Required Python Dependencies:
 pip install requests flask
 
-3. Verify Directory Structure: Ensure an empty outputs/ folder is present in the root directory to store workspace session files.
+4. Verify Directory Structure: Ensure an empty outputs/ folder is present in the root directory to store workspace session files.
 
 💻 Usage Guide
 1. Execute the VAPT Automation Suite
