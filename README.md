@@ -114,13 +114,14 @@ Open your favorite web browser and navigate to the local loopback server URL:
 
 📊 Technical Performance Specifications
 
-
+```
 Architectural Metric                   Engine Core Implementation Details
 Concurrency Pattern                    Native concurrent.futures.ThreadPoolExecutor worker nodes
 Thread Pool Allocation                 10 Parallel Worker Threads (Dynamically scalable)
 Timeout Safety Gates                   Absolute 5-second connection read timeout per individual request path
 I/O Bound Protection                   Global Interpreter Lock (GIL) yielding on asynchronous socket waits
 Process Bridge Mode                    Kernel-level stream communication via explicit subprocess.Popen
+```
 
 🔮 Strategic Future Roadmap
 
