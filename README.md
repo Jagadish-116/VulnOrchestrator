@@ -62,7 +62,7 @@ VulnOrchestrator rejects broken monolithic security software structures in favor
 
 ## 📂 Repository Structure
 
-
+```
 VulnOrchestrator/
 │
 ├── core/
@@ -77,6 +77,7 @@ VulnOrchestrator/
 ├── outputs/             # Volatile Local Workspace Directory for Scan Analytics
 ├── app.py               # Flask Micro-Server Web Router Entry-Point
 └── test_run.py          # Backend VAPT Pipeline Automation Controller
+```
 
 🚀 Getting Started
 Prerequisites
@@ -112,6 +113,7 @@ Open your favorite web browser and navigate to the local loopback server URL:
 
 📊 Technical Performance Specifications
 
+
 Architectural Metric                   Engine Core Implementation Details
 Concurrency Pattern                    Native concurrent.futures.ThreadPoolExecutor worker nodes
 Thread Pool Allocation                 10 Parallel Worker Threads (Dynamically scalable)
@@ -120,6 +122,7 @@ I/O Bound Protection                   Global Interpreter Lock (GIL) yielding on
 Process Bridge Mode                    Kernel-level stream communication via explicit subprocess.Popen
 
 🔮 Strategic Future Roadmap
+
 CI/CD Build Pipeline Gates: Integrate specific termination codes (Exit Code 1 on High Severity leaks) to allow developers to drop bad compilation updates automatically inside GitHub Actions pipelines.
 
 Template-Driven Auditing: Transition the static fuzzer list into a dynamic template processor that reads YAML-formatted vulnerability definitions to flag complex CVE patterns.
