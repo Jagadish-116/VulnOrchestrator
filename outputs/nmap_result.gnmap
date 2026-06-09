@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Tue Jun  9 11:35:59 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -F -sV -oG outputs\\nmap_result.gnmap testaspnet.vulnweb.com
+Host: 44.238.29.244 (ec2-44-238-29-244.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 44.238.29.244 (ec2-44-238-29-244.us-west-2.compute.amazonaws.com)	Ports: 53/filtered/tcp//domain///, 80/open/tcp//http//Microsoft IIS httpd 8.5/, 443/filtered/tcp//https///, 587/filtered/tcp//submission///, 993/filtered/tcp//imaps///, 995/filtered/tcp//pop3s///	Ignored State: closed (94)
+# Nmap done at Tue Jun  9 11:36:12 2026 -- 1 IP address (1 host up) scanned in 13.15 seconds
