@@ -88,7 +88,7 @@ Nmap installed and correctly registered in your system's Environment PATH variab
 Installation & Setup
 
 1. Clone the Repository:
-git clone [https://github.com/yourusername/VulnOrchestrator.git](https://github.com/yourusername/VulnOrchestrator.git)
+git clone [https://github.com/yourusername/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)
 cd VulnOrchestrator
 
 2. Install Required Python Dependencies:
