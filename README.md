@@ -79,40 +79,40 @@ VulnOrchestrator/
 └── test_run.py          # Backend VAPT Pipeline Automation Controller
 ```
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
+### Prerequisites
 Python 3.12+ installed on the host operating system.
 
-Nmap installed and correctly registered in your system's Environment PATH variables.
+<br> Nmap installed and correctly registered in your system's Environment PATH variables.
 
-Installation & Setup
+## Installation & Setup
 
 1. Clone the Repository:
-git clone [https://github.com/Jagadish-116/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)
+`git clone [https://github.com/Jagadish-116/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)`
 
-cd VulnOrchestrator
+<br> `cd VulnOrchestrator`
 
 3. Install Required Python Dependencies:
-pip install requests flask
+`pip install requests flask`
 
 4. Verify Directory Structure: Ensure an empty outputs/ folder is present in the root directory to store workspace session files.
 
-💻 Usage Guide
+### 💻 Usage Guide
 1. Execute the VAPT Automation Suite
-Open your main automation script (test_run.py) and set your target configuration parameter to a domain or network IP you have authorized permission to audit:
+Open your main automation script `(test_run.py)` and set your target configuration parameter to a domain or network IP you have authorized permission to audit:
 target = "testphp.vulnweb.com"
 Fire up your administrator shell and execute the automated backend orchestration pipeline:
-python test_run.py
+`python test_run.py`
 
 2. Boot the Dashboard User Interface
 Launch the local web visualization server to monitor and track your asset infrastructure intelligence:
 
-python app.py
+`python app.py`
 Open your favorite web browser and navigate to the local loopback server URL:
 
-[http://127.0.0.1:5000](http://127.0.0.1:5000)
+`[http://127.0.0.1:5000]`(http://127.0.0.1:5000)
 
-📊 Technical Performance Specifications
+### 📊 Technical Performance Specifications
 
 ```
 Architectural Metric                   Engine Core Implementation Details
@@ -123,15 +123,15 @@ I/O Bound Protection                   Global Interpreter Lock (GIL) yielding on
 Process Bridge Mode                    Kernel-level stream communication via explicit subprocess.Popen
 ```
 
-🔮 Strategic Future Roadmap
+### 🔮 Strategic Future Roadmap
 
 CI/CD Build Pipeline Gates: Integrate specific termination codes (Exit Code 1 on High Severity leaks) to allow developers to drop bad compilation updates automatically inside GitHub Actions pipelines.
 
-Template-Driven Auditing: Transition the static fuzzer list into a dynamic template processor that reads YAML-formatted vulnerability definitions to flag complex CVE patterns.
+<br> Template-Driven Auditing: Transition the static fuzzer list into a dynamic template processor that reads YAML-formatted vulnerability definitions to flag complex CVE patterns.
 
-Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
+<br> Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
 
-📜 License
+##📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
 🤝 Contributing
