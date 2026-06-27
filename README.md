@@ -88,7 +88,9 @@ Python 3.12+ installed on the host operating system.
 ## Installation & Setup
 
 1. Clone the Repository:
-`git clone [https://github.com/Jagadish-116/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)`
+```
+git clone [https://github.com/Jagadish-116/VulnOrchestrator.git]( https://github.com/Jagadish-116/VulnOrchestrator.git)
+```
 
 <br> `cd VulnOrchestrator`
 
@@ -101,14 +103,15 @@ Python 3.12+ installed on the host operating system.
 1. Execute the VAPT Automation Suite
 Open your main automation script `(test_run.py)` and set your target configuration parameter to a domain or network IP you have authorized permission to audit:
 target = "testphp.vulnweb.com"
-Fire up your administrator shell and execute the automated backend orchestration pipeline:
+<br> Fire up your administrator shell and execute the automated backend orchestration pipeline:
 `python test_run.py`
 
 2. Boot the Dashboard User Interface
 Launch the local web visualization server to monitor and track your asset infrastructure intelligence:
 
 `python app.py`
-Open your favorite web browser and navigate to the local loopback server URL:
+
+<br> Open your favorite web browser and navigate to the local loopback server URL:
 
 `[http://127.0.0.1:5000]`(http://127.0.0.1:5000)
 
@@ -127,9 +130,9 @@ Process Bridge Mode                    Kernel-level stream communication via exp
 
 CI/CD Build Pipeline Gates: Integrate specific termination codes (Exit Code 1 on High Severity leaks) to allow developers to drop bad compilation updates automatically inside GitHub Actions pipelines.
 
-<br> Template-Driven Auditing: Transition the static fuzzer list into a dynamic template processor that reads YAML-formatted vulnerability definitions to flag complex CVE patterns.
+ Template-Driven Auditing: Transition the static fuzzer list into a dynamic template processor that reads YAML-formatted vulnerability definitions to flag complex CVE patterns.
 
-<br> Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
+ Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
 
 ##📜 License
 Distributed under the MIT License. See LICENSE for more information.
