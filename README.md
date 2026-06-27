@@ -113,7 +113,7 @@ Launch the local web visualization server to monitor and track your asset infras
 
 <br> Open your favorite web browser and navigate to the local loopback server URL:
 
-`[http://127.0.0.1:5000]`(http://127.0.0.1:5000)
+`http://127.0.0.1:5000`
 
 ### 📊 Technical Performance Specifications
 
@@ -134,9 +134,9 @@ CI/CD Build Pipeline Gates: Integrate specific termination codes (Exit Code 1 on
 
  Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
 
-##📜 License
+## 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please fork this repository, open a descriptive feature branch, make your commits, and submit a clean Pull Request. For major structural changes, please open an issue first to discuss what you would like to modify.
 
