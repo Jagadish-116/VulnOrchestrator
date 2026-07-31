@@ -135,7 +135,7 @@ CI/CD Build Pipeline Gates: Integrate specific termination codes (Exit Code 1 on
  Static Analysis Integration: Add lightweight SAST (Static Application Security Testing) tools into the workflow loop to audit code files alongside active network infrastructure audits.
 
 ## 📜 License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the GNU GPLv3 License. See LICENSE for more information.
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork this repository, open a descriptive feature branch, make your commits, and submit a clean Pull Request. For major structural changes, please open an issue first to discuss what you would like to modify.
