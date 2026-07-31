@@ -2,7 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.12%2B-gold)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/framework-Flask-teal)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![License](https://img.shields.io/badge/license-GNU_GPLv3-blue)](LICENSE)
 [![Security](https://img.shields.io/badge/VAPT-Pipeline-red)]()
 
 **VulnOrchestrator** is a lightweight, high-concurrency VAPT (Vulnerability Assessment and Penetration Testing) automation framework. It bridges the gap between low-level infrastructure scanning and web application security auditing by chaining tools together into a unified data engineering pipeline. 
